@@ -2,7 +2,8 @@ import axios from 'axios';
 import type { AuthResponse, LoginData, RegisterData, Bug, CreateBugData, UpdateBugStatusData } from '../types';
 
 //const API_URL = 'https://localhost:5001/api';
-const API_URL = 'http://prakash.runasp.net/api'
+//const API_URL = 'http://prakash.runasp.net/api'
+const API_URL='https://prakashdhakal.bsite.net/api'
 
 const api = axios.create({
   baseURL: API_URL,
